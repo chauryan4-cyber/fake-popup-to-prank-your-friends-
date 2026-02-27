@@ -115,7 +115,7 @@ guide.configure(bg="#222")
 guide.attributes("-topmost", True)
 guide.resizable(False, False)
 guide.geometry("300x100+20+20")
-tk.Label(guide, text="Nhấn  Ctrl+Q  để thoát 😂",
+tk.Label(guide, text="press ctrl+q to quit my bradar 😂",
          font=("Segoe UI", 12, "bold"), fg="#00ff88", bg="#222").pack(expand=True)
 
 # Spawn vài cái đầu tiên
