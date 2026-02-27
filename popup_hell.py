@@ -4,18 +4,18 @@ import threading
 import time
 
 MESSAGES = [
-    ("⚠️ CẢNH BÁO NGHIÊM TRỌNG", "Máy tính của bạn có 47 VIRUS!\nHãy gọi ngay: 1800-SCAM-NOW", "#ff0000"),
-    ("🔴 HỆ THỐNG BỊ XÂM NHẬP", "Hacker đang truy cập file của bạn!\nĐừng tắt máy!!!", "#cc0000"),
-    ("💀 LỖI NGHIÊM TRỌNG", "KERNEL_PANIC_0x000000FF\nHệ thống sẽ tự hủy sau 10 giây", "#8b0000"),
-    ("🛑 CẦN CẬP NHẬT NGAY", "Windows của bạn đã hết hạn!\nMua license: $299.99", "#ff4400"),
-    ("😱 DỮ LIỆU BỊ MÃ HÓA", "Toàn bộ file đã bị khóa!\n(jk không có gì xảy ra hết đâu 😂)", "#ff0066"),
-    ("🔥 CPU NHIỆT ĐỘ CAO", "CPU đang ở 247°C !!!\nMáy sắp nổ rồi bạn ơi!", "#ff6600"),
-    ("👁️ ĐANG BỊ THEO DÕI", "NSA đang xem màn hình của bạn\nLúc này. Ngay bây giờ. 👀", "#6600cc"),
-    ("💸 TÀI KHOẢN BỊ HACK", "Ai đó vừa chuyển $99,999\nra khỏi tài khoản của bạn!", "#ff0000"),
-    ("🤖 AI ĐANG KIỂM SOÁT", "ChatGPT vừa chiếm quyền\nkiểm soát máy tính của bạn 🤖", "#0066ff"),
-    ("📱 ĐIỆN THOẠI BỊ CLONE", "Có người đang đọc\ntin nhắn Zalo của bạn!", "#cc6600"),
-    ("☢️ PHÓNG XẠ PHÁT HIỆN", "Màn hình của bạn đang phát\ntia UV cực mạnh. Nhắm mắt lại!", "#00cc00"),
-    ("🎰 CHÚC MỪNG BẠN TRÚNG", "Bạn là người dùng thứ 1.000.000!\nPhần thưởng: 1 cái popup nữa 🎉", "#ff00ff"),
+    ("⚠️ CRITICAL WARNING", "Your computer has 47 VIRUSES!\nCall now: 1800-SCAM-NOW", "#ff0000"),
+    ("🔴 SYSTEM COMPROMISED", "Hacker is accessing your files!\nDO NOT TURN OFF THE COMPUTER!!!", "#cc0000"),
+    ("💀 FATAL ERROR", "KERNEL_PANIC_0x000000FF\nSystem will self-destruct in 10 seconds", "#8b0000"),
+    ("🛑 UPDATE REQUIRED", "Your Windows has expired!\nBuy license: $299.99", "#ff4400"),
+    ("😱 DATA ENCRYPTED", "All files have been locked!\n(jk nothing happened 😂)", "#ff0066"),
+    ("🔥 CPU OVERHEAT", "CPU is at 247°C !!!\nYour PC is about to explode!", "#ff6600"),
+    ("👁️ UNDER SURVEILLANCE", "The NSA is watching your screen\nRight now. At this moment. 👀", "#6600cc"),
+    ("💸 ACCOUNT HACKED", "Someone just transferred $99,999\nout of your bank account!", "#ff0000"),
+    ("🤖 AI TAKEOVER", "ChatGPT just seized control\nof your computer 🤖", "#0066ff"),
+    ("📱 PHONE CLONED", "Someone is currently reading\nyour private messages!", "#cc6600"),
+    ("☢️ RADIATION DETECTED", "Your monitor is emitting intense\nUV rays. Close your eyes!", "#00cc00"),
+    ("🎰 CONGRATULATIONS", "You are the 1,000,000th visitor!\nYour prize: One more popup 🎉", "#ff00ff"),
 ]
 
 POSITIONS = []
